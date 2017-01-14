@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+<form class="container">
+    <div class="input-field">
+        <input name="post-title" placeholder="Tytuł" required/>
+    </div>
+
+    <div class="input-field">
+        <textarea name="post-body" class="materialize-textarea" placeholder="Treść" required></textarea>
+    </div>
+
+    <input class="btn" type="submit" value="Wyślij">
+</form>
+
+<script>
+    let $form = document.querySelector('form');
+
+    $form.addEventListener('submit', (evt) => {
+        evt.preventDefault();
+
+        let data = new FormData($form);
+
+        data.forEach((value, key) => {
+            console.log(value, key);
+        });
+    });
+</script>
