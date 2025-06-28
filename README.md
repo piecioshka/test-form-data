@@ -1,8 +1,8 @@
 # test-form-data
 
-> :ledger: Testing `FormData` object.
+📒 Testing `FormData` object.
 
-## How it works?
+## How it works? 🚀
 
 ```html
 <form>
@@ -25,4 +25,4 @@ Probably you forget about `name` attribute in each input.
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2017
+[The MIT License](https://piecioshka.mit-license.org) @ 2017
